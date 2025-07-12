@@ -10,7 +10,7 @@ function drawCard() {
   const music = document.getElementById("bg-music");
   music.play();
 
-  cardContainer.innerHTML = `<p style="font-size:18px;">Shuffling...</p>`;
+  cardContainer.innerHTML = `<p style="font-size:18px;"><br>Shuffling...</p>`;
 
   setTimeout(() => {
     const randomIndex = Math.floor(Math.random() * cards.length);
@@ -39,7 +39,7 @@ const promptText = document.getElementById("promptText");
 promptText.classList.add("fade-out");
 
 setTimeout(() => {
-  promptText.innerHTML = "💖May this gift serve your heart, your light, and your next beautiful step forward.<br>I wish you a month full of little moments that remind you how far you've come,<br> and how much light still waits for you ahead.💖";
+  promptText.innerHTML = "May this gift serve your heart, your light, and your next beautiful step forward.<br>I wish you a month full of little moments that remind you how far you've come,<br> and how much light still waits for you ahead.";
   promptText.classList.remove("fade-out");
 }, 1000);
 
