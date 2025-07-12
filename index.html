@@ -10,18 +10,43 @@
 </head>
 <body>
 
-  <h1>Happy Birthday To You	<br>🌟Terrence🌟</br></h1>
+  <h1>Happy Birthday To You	<br>🌟Terrence🌟</h1>
 
-  <p>Take a deep breath…
+<div class="top-section">
+	
+	<div class="cake-wrapper">
+	<div class="cake">
+  <div class="velas">
+    <div class="fuego"></div>
+    <div class="fuego"></div>
+    <div class="fuego"></div>
+    <div class="fuego"></div>
+    <div class="fuego"></div>
+  </div>
+  <div class="cobertura"></div>
+  <div class="bizcocho"></div>
+	</div>
+	</div>
+	
+  <p id="promptText">Take a deep breath…
 This space was made just for you.
 		<br>When you're ready, click below to draw a card.
 <br>A little gift is waiting for you.</p>
+	
+
+		
+	
+	<div class="button-area">
   <button onclick="drawCard()" id="drawBtn">Draw a Card</button>
+		</div>
+	</div>
+		
+		
+		
   <audio id="bg-music" src="assets/music.mp3"></audio>
 
 
   <div id="cardContainer"></div>
-	
 	
 	
 	
@@ -36,7 +61,7 @@ This space was made just for you.
 </div>
 	
   <!-- Link to the external JavaScript file -->
-  <script src="assets/app.js"></script>
+  <script src="assets/app.js" defer></script>
 
 </body>
 </html>
